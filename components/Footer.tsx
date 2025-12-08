@@ -33,10 +33,10 @@ const Footer = () => {
 
           <div className="flex flex-col gap-2 text-gray-700">
             <div className="flex items-center gap-2 text-sm">
-              <Phone size={18} /> +243 83 17 18 338
+              <Phone size={18} className="shrink-0" /> +243 83 17 18 338
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <Mail size={18} /> servigroup.social@gmil.com
+              <Mail size={18} className="shrink-0" /> servigroup.social@gmil.com
             </div>
             <div className="flex items-center gap-3 mt-2">
               <Link
