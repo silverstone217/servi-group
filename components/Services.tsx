@@ -1,9 +1,8 @@
 "use client";
 import { ServicesList } from "@/utils/data";
 import Link from "next/link";
-import React from "react";
 import { googleSansCode } from "@/lib/fonts";
-import Image from "next/image";
+// import Image from "next/image";
 
 // Smooth & premium Services Section without Framer Motion
 

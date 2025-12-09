@@ -16,7 +16,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl border bg-black">
+    <div
+      className="relative w-full h-80 md:h-96 rounded-2xl overflow-hidden 
+    shadow-xl border bg-black max-w-7xl mx-auto"
+    >
       {/* nav dots */}
       <div className="absolute top-4 right-4 z-30 flex gap-2">
         {HeroList.map((_, idx) => (
