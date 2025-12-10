@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Servi Group", url: "https://servi-group.vercel.app" }],
   creator: "Servi Group",
+  metadataBase: new URL("https://servi-group.vercel.app"),
   openGraph: {
     title: "Servi Group",
     description:
@@ -35,6 +36,10 @@ export const metadata: Metadata = {
     ],
     locale: "fr_FR",
     type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
