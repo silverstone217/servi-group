@@ -105,6 +105,40 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Informations legales */}
+      <div className="w-full border-t border-white/10 p-4">
+        <div
+          className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 
+        lg:grid-cols-4 gap-4 text-xs opacity-80"
+        >
+          <div className="flex flex-col">
+            <span className="font-semibold uppercase tracking-wide">RCCM</span>
+            <span>CD/KNG/RCCM/25-B-00820</span>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="font-semibold uppercase tracking-wide">
+              Identification nationale
+            </span>
+            <span>01-F4300-N63754X</span>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="font-semibold uppercase tracking-wide">
+              Numéro d’impôt
+            </span>
+            <span>15/01022276M/DGI/DIRAF/DIGR/IM/2025</span>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="font-semibold uppercase tracking-wide">
+              Société
+            </span>
+            <span>Servi Group — SG SARL</span>
+          </div>
+        </div>
+      </div>
+
       {/* Footer Bottom */}
       <div className="border-t mt-10 pt-6 text-center text-gray-500 text-sm">
         © {new Date().getFullYear()} Servi Group. Tous droits réservés.
